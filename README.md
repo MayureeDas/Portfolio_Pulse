@@ -20,3 +20,8 @@ Contains details of all my skill-sets
 ### Contact Section
 A bridge for anyone to contact me
 ![image](https://github.com/MayureeDas/Portfolio_Pulse/assets/75084167/02b2fbbd-7de9-4d80-ba45-75f9c4c26957)
+
+
+
+## Portfolio Pulse (Technologies Used)
+This digital getway uses HTML, CSS and Javascript for the frontend.
