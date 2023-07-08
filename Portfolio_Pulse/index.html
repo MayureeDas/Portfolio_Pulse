@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Web Design</title>
+
+
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css-->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header designn-->
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mayuree Das</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Being a Frontend Developer I just love to be creative all the time. 
+            Learning new skills and technologies are my passion.
+                Adapting in a new environment is my hobby.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Portfolio_image.jpg" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about_image.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Being a Frontend Developer I just love to be creative all the time. Learning new skills and technologies are my passion.
+                Adapting in a new environment is my hobby.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+    <!--services section design-->
+      <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <i class='bx bxs-music'></i>
+                <img src="images/project1.jpeg" alt="">
+                <h3>Melodi</h3>
+                <p>A web application designed to provide the users an interface to interact between the different genres of music and listen to them, get the latest news and also read different posts related to music. One of the most fascinating features that the application possesses is to get the lyrics of all the songs and a 3D rotating image gallery of the artists</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+
+            <div class="projects-box">
+                <i class='bx bxs-data'></i>
+                <img src="images/project3.jpeg" alt="">
+                <h3>Career Management System</h3>
+                <p>provides an insight into the different tables and their relationships between the entities and the different users present in the LinkedIn database. It also shows the ER Diagram which pictorically depicts the relationships between these entities. In order to reduce data redundancy, the normalization concept has been used to the maximum extent</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+
+            <div class="projects-box">
+                <i class='bx bx-code-alt'></i>
+                <img src="images/project3.jpeg" alt="">
+                <h3>Industry Insight</h3>
+                <p>A social networking platform designed for professionals where they can discuss news, trends, and insights related to any area. It also contains elements like expert Q&A sessions, discussion forums, and curated content pertinent to particular professions. The user is also able to add new professionals from the suggested list provided</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+
+            <div class="projects-box">
+                <i class='bx bxs-graduation'></i>
+                <img src="images/project4.jpeg" alt="">
+                <h3>Campus Hub</h3>
+                <p>A web application tailor-made to support different features required to conduct different activities on campus. This web application uses AWS server as a host. It can also perform all the operations related to campus management</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+      </section>
+
+     <!--contact section design-->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+               <input type="text" placeholder="Full Name">
+               <input type="email" placeholder="Email Address">    
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email" placeholder="Email subject">    
+             </div>
+             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        
+            </form>
+     </section>
+
+     <!--footer design-->
+
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Mayuree | All Rights Reserved.</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+      </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <!--custom js-->
+    <script src="script.js"></script>
+</body>
+</html>
